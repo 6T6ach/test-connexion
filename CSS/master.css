@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+/* Sizing */
+header, .navbar{
+    top: 0;
+    width: 100%;
+}
+
+/*MAIN */
+.main-home{
+    background-color: rgb(192, 189, 189);
+    margin-top: 15vh;
+    padding: 10px;
+    height: 90vh;
+}
+.main-connexion{
+   margin-top: 100px;
+   padding: 0;
+    color: white;
+    width: 100%;
+    max-height: 100vh;
+}
+
+.main-inscription{
+    margin-top: 200px;
+}
+
+#bg-carousel{
+    position: fixed;
+    width: 100%;
+    height: 120vh;
+    z-index: -2;
+}
+
+.w-30{
+    width: 30% !important;
+}
+
+/* BACKGROUND */
+
+.navbar {
+    background-color: #fecc00;
+    height: 15vh;
+}
+
+.nav-accueil, .cont-nav{
+    background-color: #fecc00;
+}
+
+.dropdown-connecte{
+    margin-right: 100px;
+    background-color: #fecc00;
+}
+
+
+
+/* contenu main */
+.carousel-inner{
+    max-height: 90vh;
+}
+
+
+.connexion-cont{
+    /* position: relative; */
+    z-index: 1;
+    padding-top: 150px;
+}
+
+.connexion-content{
+    padding: 20px;
+}
+
+#connexion-border{
+    border-radius: 5px;
+    box-shadow: darkgray 2px 2px 2px;
+}
+
+
+/* image */
+
+#nav-logo{
+    width: 50%;
+}
+/* Border OU */
+.parent-border{
+    align-items: center;
+    justify-content: center;
+}
+
+.barre-ou{
+    background-color: #fecc00;
+    height: 6px;
+}
+/* TITRE */
+
+.title-profil{
+    margin-top: 150px;
+}
